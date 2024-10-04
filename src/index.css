@@ -1,0 +1,9 @@
+header {
+  background-color: #4CAF50;   /* Green background */
+  padding: 1.5rem;             /* Increased padding for more space */
+  width: 100%;                  /* Width of the header (60% of the page width) */
+  margin-top: 220px;           /* Add margin to create space around the header */
+  text-align: center;          /* Center the text */
+  border-radius: 30px;         /* Add rounded corners */
+  
+}

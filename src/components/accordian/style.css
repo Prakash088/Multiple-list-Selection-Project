@@ -1,0 +1,52 @@
+/* Ensure body and html take full viewport height */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#f4e2e2;
+}
+
+/* Center the entire wrapper horizontally and vertically */
+.wrapper {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    width: 110%;             /* Full width */
+    height: 100vh;           /* Full viewport height to center vertically */
+    flex-direction: column;
+    gap: 10px;
+}
+
+.wrapper button{
+    background-color: rgb(229, 84, 84);   /* Green background */
+    padding: 2rem;             /* Increased padding for more space */
+    width: 40%;                  /* Width of the header (60% of the page width) */
+    margin-top: 220px;           /* Add margin to create space around the header */
+    text-align: center;          /* Center the text */
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight:bold;
+}
+
+.accordian {
+    width: 600px;            /* Set width for accordion */
+    text-align: center;      /* Center text inside accordion */
+    border: 1px  solid #000000;  /* Optional border */
+    border-radius: 8px;      /* Rounded corners */
+    padding: 20px;
+    background-color: #f9f9f9; /* Background color */
+}
+
+.item {
+    padding: 10px 20px;
+    margin-bottom: 10px;     /* Spacing between items */
+    border-bottom: 1px solid #ddd; /* Border between items */
+    cursor: pointer;
+    background-color: aqua;
+}
+
+.item:last-child {
+    border-bottom: none;     /* Remove bottom border for the last item */
+}
